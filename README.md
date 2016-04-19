@@ -3,6 +3,15 @@ test
 
 This is a dumping ground for various silly tests.
 
+ text on first
+ line
+
+  text on second
+  line of
+
+    text on fourth
+    line.
+
 header
 =======
 
