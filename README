@@ -38,12 +38,23 @@ Usage
     ksmtp test@test.com -s "some subject"
     ```
 
+Code Usage
+==========
+
+Sample Python Code:
+
+    ```
+    import ksmtp
+    ksmtp.send(to="test@test.com",
+               subject="subject",
+               body="some message")
+    ```
+
 Issues
 ======
 
 Gmail:
 If you get an "smtplib.SMTPAuthenticationError" and your credentials are
 correct, you may need to "allow less secure apps access" to your account.
-
 See https://support.google.com/accounts/answer/6010255
 
